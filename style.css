@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+.container{
+    height: 100vh;
+    background-position: center;
+    background-image: url(./images/image1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    color: #FFFFFF;
+
+}
+
+.text{
+    font-size: 2.5rem;
+    font-weight: 400;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #313534;
+    padding: 10px;
+}
+
+.text-container{
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 50px 80px;
+}
+
+.text-container h2{
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+
+.text-container p{
+    font-size: 1.4rem;
+}
+
+.section-2{
+    min-height: 600px;
+    background-position: center;
+    background-image: url(./images/image2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* position: relative; */
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.heading-1 h1{
+    font-size: 3.5rem;
+    padding-top: 80px;
+}
+
+.text-box{
+    padding: 50px 80px;
+}
+
+.text-box h2{
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+
+}
+
+.text-box p{
+    font-size: 1.5rem;
+}
+
+.text-box{
+    background-color: #313534;
+    
+}
+
+
+.section-3{
+    min-height: 800px;
+    background-position: center;
+    background-image: url(./images/image3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* position: relative; */
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading-2 h1{
+    font-size: 3.5rem;
+    padding-top: 250px;
+}
+
+
+@media (max-width: 600px) {
+
+    html{
+        font-size: 50%;
+    }
+    
+    .heading-2 h1{
+        padding-top: 200px;
+    }
+    
+    .heading-1 h1{
+        padding-top: 90px;
+    }
+
+    .text{
+        font-size: 1.25rem;
+        top: 50%;
+    }
+
+    .text-box , .text-container{
+        padding: 40px 50px;
+    }
+
+}
